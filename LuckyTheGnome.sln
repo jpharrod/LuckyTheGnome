@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuckyTheGnome.CSharp.Plugins", "LuckyTheGnome.CSharp.Plugins.csproj", "{F25122D2-AA08-BF4D-52E5-86A6C8AAC918}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuckyTheGnome.CSharp", "LuckyTheGnome.CSharp.csproj", "{C194D458-697C-04CE-28AA-A763FB2AF753}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuckyTheGnome.CSharp.Editor", "LuckyTheGnome.CSharp.Editor.csproj", "{D0545C3F-0E43-26D0-0E94-F29D8B57A9F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F25122D2-AA08-BF4D-52E5-86A6C8AAC918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F25122D2-AA08-BF4D-52E5-86A6C8AAC918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F25122D2-AA08-BF4D-52E5-86A6C8AAC918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F25122D2-AA08-BF4D-52E5-86A6C8AAC918}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C194D458-697C-04CE-28AA-A763FB2AF753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C194D458-697C-04CE-28AA-A763FB2AF753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C194D458-697C-04CE-28AA-A763FB2AF753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C194D458-697C-04CE-28AA-A763FB2AF753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0545C3F-0E43-26D0-0E94-F29D8B57A9F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0545C3F-0E43-26D0-0E94-F29D8B57A9F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0545C3F-0E43-26D0-0E94-F29D8B57A9F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0545C3F-0E43-26D0-0E94-F29D8B57A9F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
