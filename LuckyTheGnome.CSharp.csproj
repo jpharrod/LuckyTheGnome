@@ -77,6 +77,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Camera\Camera_Move.cs" />
     <Compile Include="Assets\Scripts\Main_Menu\Editor_Picker.cs" />
+    <Compile Include="Assets\Scripts\Projectile Scripts\Collision_Script.cs" />
+    <Compile Include="Assets\Scripts\Turret Scripts\Attack_AI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Source Art\ini.txt" />
