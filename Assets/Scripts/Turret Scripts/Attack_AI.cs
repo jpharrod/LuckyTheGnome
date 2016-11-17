@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Attack_AI : MonoBehaviour {
     public GameObject Projectile;
+    public GameObject Firing_Point;
     public float Projectile_Velocity = 10000;
     public Vector3 Projectile_Launch_Position;
     public float fireRate = 1.0f;
@@ -80,8 +81,8 @@ public class Attack_AI : MonoBehaviour {
 
                 if (Time.time > fireRate + lastShot)
                 {
-                    Projectile_Launch_Position = new Vector3(transform.position.x, transform.position.y + 3, transform.position.z);
-                    Projectile_Launch_Position = new Vector3(Projectile_Launch_Position.x, Projectile_Launch_Position.y + (Random.Range(-5f,5f)), Projectile_Launch_Position.z);
+                    Projectile_Launch_Position = Firing_Point.transform.position;
+                    //Projectile_Launch_Position = new Vector3(Projectile_Launch_Position.x, Projectile_Launch_Position.y + (Random.Range(-5f,5f)), Projectile_Launch_Position.z);
                     GameObject bPrefab = Instantiate(Projectile, Projectile_Launch_Position, Quaternion.identity) as GameObject;
                     bPrefab.GetComponent<Rigidbody>().AddForce(TargetVector * (10 * Target_Range));
 
